@@ -15,4 +15,3 @@ rustc-serialize = "*"
 
 [dev-dependencies]
 openssl = "*"
-tempdir = "*"
