@@ -3,9 +3,11 @@ name = "pem-parser"
 version = "0.1.0"
 authors = ["Yohai Berreby (filsmick) <yohaiberreby@gmail.com>"]
 description = """
-A simple tool to extract the binary payload of PEM-formatted
-public and private RSA keys.
+A simple tool to convert RSA keys from PEM to DER.
 """
+readme = "README.md"
+repository = "https://github.com/filsmick/pem-parser-rs"
+license = "MIT"
 
 [dependencies]
 regex = "*"
