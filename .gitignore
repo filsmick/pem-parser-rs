@@ -1,0 +1,4 @@
+target
+Cargo.lock
+test_data/rust_encrypted_data
+test_data/openssl_cli_encrypted_data

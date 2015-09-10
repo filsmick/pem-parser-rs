@@ -1,0 +1,16 @@
+[package]
+name = "pem-parser"
+version = "0.1.0"
+authors = ["Yohai Berreby (filsmick) <yohaiberreby@gmail.com>"]
+description = """
+A simple tool to extract the binary payload of PEM-formatted
+public and private RSA keys.
+"""
+
+[dependencies]
+regex = "*"
+rustc-serialize = "*"
+
+[dev-dependencies]
+openssl = "*"
+tempdir = "*"
